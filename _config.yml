@@ -1,0 +1,25 @@
+
+title: Venkateswaran "Shekar" Shekar
+description: Your Site Description
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://vshekar.com" # the base hostname & protocol for your site
+
+theme: bulma-clean-theme
+
+# Other configurations
+markdown: kramdown
+kramdown:
+  input: GFM
+permalink: pretty
+
+show_sidebar: true
+
+# Build settings
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/

@@ -1,9 +1,12 @@
 ---
+layout: page
+title: Shekar's Homepage
+subtitle: A place to post stuff
+description: This is the meta description for this page and will help it appear in search engines
 ---
 
-Welcome to My Home Page
+# Under construction
 
-{% assign date = '2020-04-13T10:20:00Z' %}
+I'll fill this page out with my resume and blog posts when I get a chance, until then enjoy this video of a cute puppy
 
-- Original date - {{ date }}
-- With timeago filter - {{ date | timeago }}
+{% include youtube.html video="vO_56IztHcQ" %}

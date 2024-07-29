@@ -1,0 +1,31 @@
+# Jekyll specific files
+_site/
+.sass-cache/
+.jekyll-metadata
+
+# Bundler dependencies
+/vendor/bundle/
+/vendor/cache/
+/vendor/gems/
+/vendor/ruby/
+
+# dotenv environment variables file
+.env
+
+# node modules and other dependencies
+node_modules/
+package-lock.json
+yarn.lock
+
+# Log files
+*.log
+
+# MacOS system files
+.DS_Store
+
+# Temporary files and directories
+*.tmp
+*.swp
+*.bak
+*.pid
+*.pid.lock
